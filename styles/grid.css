@@ -1,0 +1,14 @@
+h2{
+    color: blue;
+}
+.container{
+    border: 2px solid salmon;
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-content: space-around;
+   grid-gap: 20px;
+
+}
+ .item{
+    border:1px solid rgb(155, 155, 131);
+}
