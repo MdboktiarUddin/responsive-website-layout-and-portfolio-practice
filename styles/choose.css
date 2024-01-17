@@ -24,7 +24,7 @@ height: 20%;
 
 @media screen and (max-width: 576px) {
     .choose-container{
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
     }
     
 }
