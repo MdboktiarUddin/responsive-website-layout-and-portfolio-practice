@@ -2,8 +2,8 @@
     width: 1200px;
     height: 300px;
     border: 1px solid lightgrey;
-    display: flex;
-   flex-direction: row;
+    display: grid;
+  grid-template-columns: repeat(1,2fr) 1fr;
    gap: 20px;
    padding-left: 10px;
 }
@@ -13,16 +13,12 @@
     border: 1px solid lightblue;
 }
 .choose-container img{
-width: 10%;
-height: 10%;
+width: 20%;
+height: 20%;
 }
-#element-three{
-    text-align: center;
-    align-items: center;
-}
-#element-three img{
-    align-items: center;
-}
+
+
+
 
 
 
