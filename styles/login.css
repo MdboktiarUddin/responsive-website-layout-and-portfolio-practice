@@ -1,0 +1,21 @@
+.login-section{
+    background-image: url('/images/banner.png');
+    background-repeat: no-repeat;
+    display:flex;
+   flex-direction: column;
+   width:1200px;
+   height:600px;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+   .login{
+    display: flex;
+    flex-direction: column;
+   } 
+
+}
